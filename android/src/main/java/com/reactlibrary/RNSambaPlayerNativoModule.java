@@ -22,7 +22,7 @@ public class RNSambaPlayerNativoModule extends ReactContextBaseJavaModule {
 
   @ReactMethod
 public void checkBridge(final Promise promise) {
-  promise.resolve(“Funcionou!”);
+  promise.resolve("Funcionou!");
 }
 
 }
